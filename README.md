@@ -1,2 +1,24 @@
-# Recipes-application
-This application will recommend to registered users cooking recipes submitted by other users considering certain factors. The main factor will be the materials available to  the user which he will declare. In addition, the user will state the time available to prepare the meal so that the application gives weight to recipes with a shorter preparation  time or if no recipe with a shorter time is available then the application will suggest one with the least possible additional time. The user will also be able to it rates the recipes suggested to it on a scale and based on this rating the app will recommend foods similar to what the user likes. The app will also try to recommend a wide  variety of meals to the user based on whether they have recently re-suggested a recipe. The application will also have a filter for the types of meals that will be displayed  to the user (eg appetizer, main course, etc.). The app will display eligible recipes in order of priority by how well they meet the user's preferences and display the process execution. When a prescription is submitted, it is required to enter the information necessary for the functions of the application. Finally, the system will calculate  the calories of each recipe based on the quantity and type of ingredients and based on the calorific value of the ingredients, which is assigned by the system administrator.
+# Project Overview
+
+The purpose of this project is to classify texts into two categories (positive, negative) using ID3, Naive Bayes and Random Forest algorithms.
+
+# Execution Instracions
+
+A) For the correct operation of the program, installation of the texttable and matplotlib libraries is required.
+
+B) To run the program, the following steps must be followed (all .py files must be in the same folder):
+1. Go to the folder containing the .py files through the command prompt.
+2. Run the program with the python command Main.py.
+3. Enter the path of the file containing the vocabulary, e.g. imdb.vocab.
+4. Enter the path of the file that contains the elements of the comments that will be used for training, e.g. train\labeledBow.feat.
+5. Enter the path of the file that contains the elements of the comments that will be used for the testing e.g. test\labeledBow.feat.
+6. Select algorithm to run.
+
+C) Display results.
+1. Display correctness curve and number of training examples used in each iteration of the experiment.
+2. Display precision and recall curve.
+3. Display F1 curve and number of training examples used in each iteration of the experiment.
+4. The results of the algorithm for the test data are in the Results.txt file located in the same location as the .py files.
+5. The accuracy and count table of the training examples in the accuracy.txt file located in the same location as the .py files.
+6. The precision and recall table in the precision-recall.txt file located in the same location as the .py files.
+7. The F1 array of training examples in the F1.txt file located in the same location as the .py files.
