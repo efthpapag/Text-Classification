@@ -20,5 +20,5 @@ C) Display results.
 3. Display F1 curve and number of training examples used in each iteration of the experiment.
 4. The results of the algorithm for the test data are in the Results.txt file located in the same location as the .py files.
 5. The accuracy and count table of the training examples in the accuracy.txt file located in the same location as the .py files.
-6. The precision and recall table in the precision-recall.txt file located in the same location as the .py files.
+6. The precision and recall table in the precision-recall.txt file located in the same location as the .py files. 
 7. The F1 array of training examples in the F1.txt file located in the same location as the .py files.
