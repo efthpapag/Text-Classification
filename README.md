@@ -2,7 +2,7 @@
 
 The purpose of this project is to classify texts into two categories (positive, negative) using ID3, Naive Bayes and Random Forest algorithms.
 
-# Execution Instracions
+# Execution Instracions 
 
 A) For the correct operation of the program, installation of the texttable and matplotlib libraries is required.
 
